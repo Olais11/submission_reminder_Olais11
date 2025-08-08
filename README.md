@@ -29,14 +29,14 @@ This bash script helps you manage and remind about students' assignment submissi
 
 1. **Clone the repository or download the script:**
 
-   ```bash
+   ```
    git clone https://github.com/submission_reminder_olais11.git
    ```
 
 2. **Create the environment:**
    Navigate to the project directory and run the environment setup script:
 
-   ```bash
+   ```
    sh create_environment.sh
    ```
 
@@ -50,22 +50,22 @@ This bash script helps you manage and remind about students' assignment submissi
 3. **Run the application:**
    Once the environment is set up, you can run the reminder system by executing the following commands:
 
-   ```bash
+   ```
    cd submission_reminder_<your_name>
    ./startup.sh
    ```
 
    The script will display:
 
-   ```bash
-Submission Reminder Application
---------------------------------------------
-Assignment: Shell Navigation
-Days remaining to submit: 2 days
---------------------------------------------
-Checking submissions in ./assets/submissions.txt
-Reminder: Chinemerem has not submitted the Shell Navigation assignment!
-Reminder: Divine has not submitted the Shell Navigation assignment!
+   ```
+   Submission Reminder Application
+   --------------------------------------------
+   Assignment: Shell Navigation
+   Days remaining to submit: 2 days
+   --------------------------------------------
+   Checking submissions in ./assets/submissions.txt
+   Reminder: Chinemerem has not submitted the Shell Navigation assignment!
+   Reminder: Divine has not submitted the Shell Navigation assignment!
    ```
 
 ## File Structure
@@ -97,7 +97,7 @@ submission_reminder_<name>/
 
 1. **Change the Assignment:** Edit the `config/config.env` file to specify the assignment you want to track and the remaining days for submission:
 
-   ```bash
+   ```
    ASSIGNMENT="Shell Navigation"
    DAYS_REMAINING=2
    ```
