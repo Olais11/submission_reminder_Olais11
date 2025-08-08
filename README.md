@@ -28,7 +28,7 @@ This bash script helps you manage and remind about students' assignment submissi
 1. **Clone the repository or download the script:**
 
 ```
-git clone https://github.com/submission_reminder_Olais11.git
+git clone https://github.com/submission_reminder_app_Olais11.git
 ```
 
 2. **Create the environment:**
