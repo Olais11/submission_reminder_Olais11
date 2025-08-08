@@ -30,7 +30,7 @@ This bash script helps you manage and remind about students' assignment submissi
 1. **Clone the repository or download the script:**
 
    ```
-   git clone https://github.com/submission_reminder_olais11.git
+   git clone https://github.com/submission_reminder_Olais11.git
    ```
 
 2. **Create the environment:**
@@ -113,7 +113,7 @@ submission_reminder_<name>/
 ## Author
 
 * **Name:** Olais
-* **GitHub Repository:** [github.com/submission\_reminder\_olais11](https://github.com/submission_reminder_olais11)
+* **GitHub Repository:** [github.com/submission\_reminder\_Olais11](https://github.com/submission_reminder_Olais11)
 
 ## License
 
