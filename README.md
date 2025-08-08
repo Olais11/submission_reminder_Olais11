@@ -10,7 +10,6 @@ A simple bash-based system to remind you about unsubmitted assignments and track
 * [File Structure](#file-structure)
 * [How to Use](#how-to-use)
 * [Author](#author)
-* [GitHub Repository](#github-repository)
 
 ---
 
@@ -110,6 +109,6 @@ submission_reminder_<name>/
 3. **Run the Reminder Script:** Execute `startup.sh` to get a reminder about unsubmitted assignments. It will output the list of students who have not submitted the assignment.
 
 ## Author
-
-* **Name:** Olais
-* **GitHub Repository:** [github.com/submission\_reminder\_Olais11](https://github.com/submission_reminder_Olais11)
+   ```
+   Olais Julius Laizer
+   ```
