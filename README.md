@@ -27,16 +27,16 @@ This bash script helps you manage and remind about students' assignment submissi
 
 1. **Clone the repository or download the script:**
 
-   ```
-   git clone https://github.com/submission_reminder_Olais11.git
-   ```
+```
+git clone https://github.com/submission_reminder_Olais11.git
+```
 
 2. **Create the environment:**
    Navigate to the project directory and run the environment setup script:
 
-   ```
-   sh create_environment.sh
-   ```
+```
+sh create_environment.sh
+```
 
    This will:
 
@@ -48,23 +48,23 @@ This bash script helps you manage and remind about students' assignment submissi
 3. **Run the application:**
    Once the environment is set up, you can run the reminder system by executing the following commands:
 
-   ```
-   cd submission_reminder_<your_name>
-   ./startup.sh
-   ```
+```
+cd submission_reminder_<your_name>
+./startup.sh
+```
 
    The script will display:
 
-   ```
-   Submission Reminder Application
-   --------------------------------------------
-   Assignment: Shell Navigation
-   Days remaining to submit: 2 days
-   --------------------------------------------
-   Checking submissions in ./assets/submissions.txt
-   Reminder: Chinemerem has not submitted the Shell Navigation assignment!
-   Reminder: Divine has not submitted the Shell Navigation assignment!
-   ```
+```
+Submission Reminder Application
+--------------------------------------------
+Assignment: Shell Navigation
+Days remaining to submit: 2 days
+--------------------------------------------
+Checking submissions in ./assets/submissions.txt
+Reminder: Chinemerem has not submitted the Shell Navigation assignment!
+Reminder: Divine has not submitted the Shell Navigation assignment!
+```
 
 ## File Structure
 
@@ -95,21 +95,21 @@ submission_reminder_<name>/
 
 1. **Change the Assignment:** Edit the `config/config.env` file to specify the assignment you want to track and the remaining days for submission:
 
-   ```
-   ASSIGNMENT="Shell Navigation"
-   DAYS_REMAINING=2
-   ```
+```
+ASSIGNMENT="Shell Navigation"
+DAYS_REMAINING=2
+```
 
 2. **Add/Modify Student Submissions:** You can edit the `assets/submissions.txt` file to add or modify students and their assignment statuses. Make sure the format is:
 
-   ```
-   student, assignment, submission status
-   ```
+```
+student, assignment, submission status
+```
 
 3. **Run the Reminder Script:** Execute `startup.sh` to get a reminder about unsubmitted assignments. It will output the list of students who have not submitted the assignment.
 
 ## Author
 
-   ```
-   Olais Julius Laizer
-   ```
+```
+Olais Julius Laizer
+```
