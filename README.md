@@ -11,7 +11,6 @@ A simple bash-based system to remind you about unsubmitted assignments and track
 * [How to Use](#how-to-use)
 * [Author](#author)
 * [GitHub Repository](#github-repository)
-* [License](#license)
 
 ---
 
@@ -114,7 +113,3 @@ submission_reminder_<name>/
 
 * **Name:** Olais
 * **GitHub Repository:** [github.com/submission\_reminder\_Olais11](https://github.com/submission_reminder_Olais11)
-
-## License
-
-This project is open-source and available under the [MIT License](LICENSE).
