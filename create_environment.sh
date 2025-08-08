@@ -96,7 +96,8 @@ cat > startup.sh << 'EOF'
 
 echo "Submission Reminder"
 echo -e "--------------------------------------------"
-sh app/reminder.sh
+chmod +x app/reminder.sh
+./app/reminder.sh
 EOF
 
 # making all .sh files executable
