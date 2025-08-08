@@ -109,6 +109,7 @@ submission_reminder_<name>/
 3. **Run the Reminder Script:** Execute `startup.sh` to get a reminder about unsubmitted assignments. It will output the list of students who have not submitted the assignment.
 
 ## Author
+
    ```
    Olais Julius Laizer
    ```
